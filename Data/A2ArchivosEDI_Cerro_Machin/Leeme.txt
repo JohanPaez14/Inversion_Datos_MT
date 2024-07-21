@@ -1,0 +1,12 @@
+Datos de sondeo magnetotelúrico.
+
+Cada archivo contiene la información de fecha de aquisición, localización (Latitud, longitus y altura),
+frecuencias de muestreo, y la información de las cuatro componentes del tensor de impedancia, 
+las magnitudes del Tipper, y los valores calculados de resistividad aparente y fase para cada frecuencia.
+
+Estos son archivos de textos planos por lo que pueden ser leido por cualquier editor de texto. Para visualizar
+la información (curvas de resistividad aparente, fase, tensores de inducción) es necesario el uso de paqueteria 
+especializada en Python o Matlab ( Ej: MTPY, paqueteria de acceso libre para Python) o de software especializado
+(Ej: Winglink, 3D-Grid).
+
+
