@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ## Estructura del Repositorio
 * `Caso 1D/`: Notebooks de Jupyter para realizar y visualizar las inversiones 1D.
 * `Caso 2D/`: Notebooks de Jupyter para realizar y visualizar las inversiones 2D.
-* `data/`: Contiene los datos utilizados para las inversiones.
+* `Data/`: Contiene los datos utilizados para las inversiones.
 * `Funciones_transferencia/`: Contiene archivos de formato Mth5 que contiene la información de los datos en `data/`.
 
 ## Atribución
