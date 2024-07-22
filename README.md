@@ -39,4 +39,4 @@ pip install -r requirements.txt
 ## Atribución
 Este repositorios contiene código que fue originalmente desarrollado por [Seogi Kang](https://github.com/sgkang) con su equipo de trabajo y puede ser encontrado en [iri-mt-course-2022](https://github.com/simpeg-research/iris-mt-course-2022/tree/main). El código original está licenciado bajo la Licencia MIT.
 ## Licencia
-Este proyecto está bajo la misma Licencia MIT que el código original. Ver el archivo LICENSE para más detalles.
+Este proyecto está bajo la misma Licencia MIT que el código original. Ver el archivo [LICENSE](LICENSE) para más detalles.
