@@ -1,6 +1,6 @@
 # MT Inversion (1D & 2D)
 
-Este repositorio contiene scripts y notebooks para realizar inversiones magnetotelúricas (MT) en 1D y 2D utilizando Python. Apoyado por el equipo de trabajo*, conformado por [Johan Páez]https://github.com/JohanPaez14/), [Camilo Caballero](https://github.com/Camilojaimes973), Ana Mantilla y Paul Goyes.
+Este repositorio contiene scripts y notebooks para realizar inversiones magnetotelúricas (MT) en 1D y 2D utilizando Python. Apoyado por el equipo de trabajo*, conformado por [Johan Páez](https://github.com/JohanPaez14/), [Camilo Caballero](https://github.com/Camilojaimes973), Ana Mantilla y Paul Goyes.
 
 _*Semillero de Investigación de Geofísica Aplicada y Computacional (SIGAC)_
 
