@@ -35,6 +35,10 @@ pip install -r requirements.txt
 ```
 
 ## Estructura del Repositorio
+* `Caso 1D/`: Notebooks de Jupyter para realizar y visualizar las inversiones 1D.
+* `Caso 2D/`: Notebooks de Jupyter para realizar y visualizar las inversiones 2D.
+* `data/`: Contiene los datos utilizados para las inversiones.
+* `Funciones_transferencia/`: Contiene archivos de formato Mth5 que contiene la información de los datos en `data/`.
 
 ## Atribución
 Este repositorios contiene código que fue originalmente desarrollado por [Seogi Kang](https://github.com/sgkang) con su equipo de trabajo y puede ser encontrado en [iri-mt-course-2022](https://github.com/simpeg-research/iris-mt-course-2022/tree/main). El código original está licenciado bajo la Licencia MIT.
