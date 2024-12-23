@@ -38,10 +38,10 @@ conda env create --file environment.yml
 ```
 
 ## Estructura del Repositorio
-* `Caso 1D/`: Notebooks de Jupyter para realizar y visualizar las inversiones 1D.
-* `Caso 2D/`: Notebooks de Jupyter para realizar y visualizar las inversiones 2D.
-* `Data/`: Contiene los datos utilizados para las inversiones.
-* `Funciones_transferencia/`: Contiene archivos de formato Mth5 que contiene la información de los datos en `data/`.
+* `analisis/`: contiene el notebook necesario para hacer el análisis de dimensionalidad.
+* `data/`: contiene los datos utilizados para las inversiones, ya sea edis o transfers_functions.
+* `inversion/`: notebooks para realizar y visualizar las inversion 1D, 2D y 3D.
+* `procesamiento/`: contiene el notebook para realizar el acondicionamiento de los datos, ya sea interpolar, seleccionar un rango, eliminar estaciones [...].
 
 ## Atribución
 Este repositorios contiene código que fue originalmente desarrollado por [Seogi Kang](https://github.com/sgkang) con su equipo de trabajo y puede ser encontrado en [iri-mt-course-2022](https://github.com/simpeg-research/iris-mt-course-2022/tree/main). \
