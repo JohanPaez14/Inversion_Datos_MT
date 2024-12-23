@@ -18,20 +18,23 @@ Este proyecto implementa métodos de inversión magnetotelúrica (MT) para perfi
 
 Para utilizar este repositorio, necesitas tener instalado Python 3.11.0. Para ello creas un ambiente conda:
 ```bash
-conda create -n simpeg0220 python==3.11
+conda create --name simpeg0230 python==3.11
 ```
 Y activas el ambiente:
 ```bash
 conda activate simpeg0220
 ```
-### Intalación de librerías
-Algunas de las dependencias listadas en `requirements.txt` son importantes instalarlas en una versión en específico para evitar errores, tal como:
+### Instalación de librerías
+Se debe instalar las siguientes librerías: simpeg (v0.23.0) y mpty (v2.0.11). Así mismo, para generar un ambiente iterativo es necesario instalar ipywidgets
 ```bash
-pip install numpy==1.26.4
+pip install simpeg
+pip install mtpy-v2
+conda install ipywidgets
 ```
-Para fácilitar la instalación, puedes instalarlas rápidamente utilizando:
+
+Para facilitar la instalación, puedes instalar el ambiente donde están todas las librerías:
 ```bash
-pip install -r requirements.txt
+conda env create --file environment.yml
 ```
 
 ## Estructura del Repositorio
@@ -41,7 +44,7 @@ pip install -r requirements.txt
 * `Funciones_transferencia/`: Contiene archivos de formato Mth5 que contiene la información de los datos en `data/`.
 
 ## Atribución
-Este repositorios contiene código que fue originalmente desarrollado por [Seogi Kang](https://github.com/sgkang) con su equipo de trabajo y puede ser encontrado en [iri-mt-course-2022](https://github.com/simpeg-research/iris-mt-course-2022/tree/main). El código original está licenciado bajo la Licencia MIT. \
+Este repositorios contiene código que fue originalmente desarrollado por [Seogi Kang](https://github.com/sgkang) con su equipo de trabajo y puede ser encontrado en [iri-mt-course-2022](https://github.com/simpeg-research/iris-mt-course-2022/tree/main). \
 Este proyecto utiliza datos del [Repositorio UIS de datos geofísicos](https://n9.cl/repositoriouisdatosgeofisicos) proporcionado por SIGAC (2022).
 
 ## Licencia
